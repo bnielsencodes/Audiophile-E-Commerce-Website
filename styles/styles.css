@@ -1,5 +1,14 @@
 body {
   margin: 0 20px;
+  --color-white: #fff;
+  --color-off-white: #fafafa;
+  --color-light-grey: #f1f1f1;
+  --color-black: #000;
+  --color-off-black: #101010;
+  --color-orange: #d87d4a;
+  --color-light-orange: #fbaf85;
+}
+
 }
 
 header {
