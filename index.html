@@ -8,10 +8,9 @@
   <!-- ********************************
     GOOGLE FONTS 
     ********************************* -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=League+Spartan:wght@400;700&display=swap"
-    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- ********************************
     NORMALIZE CSS
@@ -37,78 +36,86 @@
 </head>
 
 <body>
-  <header>
-    <img class="header-bg-img" src="assets/home/mobile/image-header.jpg" alt="" />
-    <div class="header-inner-container">
-      <nav class="nav">
-        <i id="hide-burger" class="fa-regular fa-bars"></i>
-        <ul class="menu hidden-sm">
-          <li class="menu__item">
-            <a href="#" class="menu__link">Home</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">Headphone</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">Speakers</a>
-          </li>
-          <li class="menu__item">
-            <a href="#" class="menu__link">Earphones</a>
-          </li>
-        </ul>
-        <h1 class="nav__logo">audiophile</h1>
-        <div class="nav__cart">
-          <svg width="23" height="20" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M8.625 15.833c1.132 0 2.054.935 2.054 2.084 0 1.148-.922 2.083-2.054 2.083-1.132 0-2.054-.935-2.054-2.083 0-1.15.922-2.084 2.054-2.084zm9.857 0c1.132 0 2.054.935 2.054 2.084 0 1.148-.922 2.083-2.054 2.083-1.132 0-2.053-.935-2.053-2.083 0-1.15.92-2.084 2.053-2.084zm-9.857 1.39a.69.69 0 00-.685.694.69.69 0 00.685.694.69.69 0 00.685-.694.69.69 0 00-.685-.695zm9.857 0a.69.69 0 00-.684.694.69.69 0 00.684.694.69.69 0 00.685-.694.69.69 0 00-.685-.695zM4.717 0c.316 0 .59.215.658.517l.481 2.122h16.47a.68.68 0 01.538.262c.127.166.168.38.11.579l-2.695 9.236a.672.672 0 01-.648.478H7.41a.667.667 0 00-.673.66c0 .364.303.66.674.66h12.219c.372 0 .674.295.674.66 0 .364-.302.66-.674.66H7.412c-1.115 0-2.021-.889-2.021-1.98 0-.812.502-1.511 1.218-1.816L4.176 1.32H.674A.667.667 0 010 .66C0 .296.302 0 .674 0zm16.716 3.958H6.156l1.797 7.917h11.17l2.31-7.917z"
-              fill="#FFF" fill-rule="nonzero" />
-          </svg>
-        </div>
-      </nav>
-
-      <div class="header-content">
-        <div class="header-content__title">New Product</div>
-        <div class="header-content__heading">X99 Mark II Headphones</div>
-        <p class="header-content__text">Experience natural, lifelike audio and exceptional build quality made for the
-          passionate music enthusiast</p>
-        <div class="header-content__cta">
-          <a href="#">See Product</a>
-        </div>
+  <nav class="nav">
+    <div class="nav__tap-container-left">
+      <div class="nav__burger-container">
+        <img class="nav__burger" src="assets/shared/tablet/icon-hamburger.svg" alt="">
       </div>
+    </div>
+
+    <ul class="menu hidden-sm">
+      <li class="menu__item">
+        <a href="#" class="menu__link">Home</a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__link">Headphone</a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__link">Speakers</a>
+      </li>
+      <li class="menu__item">
+        <a href="#" class="menu__link">Earphones</a>
+      </li>
+    </ul>
+
+    <div class="nav__logo-container">
+      <img class="nav__logo" src="assets/shared/desktop/logo.svg" alt="">
+    </div>
+
+    <div class="nav__tap-container-right">
+      <div class="nav__cart-container">
+        <img class="nav__cart" src="assets/shared/desktop/icon-cart.svg" alt="">
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="header__img"></div>
+    <div class="header-content">
+      <p class="header__title">New Product</p>
+      <h1 class="header__heading">X99 Mark II Headphones</h1>
+      <p class="header__text">Experience natural, lifelike audio and exceptional build quality made for the
+        passionate music enthusiast</p>
+      <input class="header__btn btn btn-text--white" type="button" value="See Product">
     </div>
   </header>
 
-
   <main>
     <div class="shop-section">
-      <div class="shop-headphones">
-        <img src="assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg" alt="">
-        <h4 class="shop-headphones__heading">Headphones</h4>
-        <a href="#" class="shop-headphones__link">
-          <p class="shop-headphones__link-text">Shop</p>
-          <svg class="shop-headphones__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+      <div class="shop-item">
+        <div class="shop-item__img-container">
+          <img src="assets/shared/desktop/image-category-thumbnail-headphones.png" alt="">
+        </div>
+        <h6 class="shop__heading">Headphones</h6>
+        <a href="#" class="shop__link">
+          <p class="shop__link-text">Shop</p>
+          <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
             <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
           </svg>
         </a>
       </div>
 
-      <div class="shop-speakers">
-        <img src="assets/product-zx9-speaker/mobile/image-category-page-preview.jpg" alt="">
-        <h4 class="shop-speakers__heading">Speakers</h4>
-        <a href="#" class="shop-speakers__link">
-          <p class="shop-speakers__link-text">Shop</p>
-          <svg class="shop-speakers__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+      <div class="shop-item">
+        <div class="shop-item__img-container">
+          <img src="assets/shared/desktop/image-category-thumbnail-speakers.png" alt="">
+        </div>
+        <h6 class="shop__heading">Speakers</h6>
+        <a href="#" class="shop__link">
+          <p class="shop__link-text">Shop</p>
+          <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
             <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
           </svg>
         </a>
       </div>
 
-      <div class="shop-earphones">
-        <img src="assets/product-yx1-earphones/mobile/image-category-page-preview.jpg" alt="">
-        <h4 class="shop-earphones__heading">Earphones</h4>
-        <a href="#" class="shop-earphones__link">
-          <p class="shop-earphones__link-text">Shop</p>
-          <svg class="shop-earphones__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+      <div class="shop-item">
+        <div class="shop-item__img-container">
+          <img src="assets/shared/desktop/image-category-thumbnail-earphones.png" alt="">
+        </div>
+        <h6 class="shop__heading">Earphones</h6>
+        <a href="#" class="shop__link">
+          <p class="shop__link-text">Shop</p>
+          <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
             <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
           </svg>
         </a>
@@ -118,22 +125,30 @@
 
     <div class="featured-section">
       <div class="featured-zx9">
-        <img class="featured-zx9__img" src="assets/shared/mobile/image-zx9-speaker.jpg" alt="">
-        <h4 class="featured-zx9__heading">ZX9 Speaker</h4>
+        <div class="featured-zx9__img-container">
+          <img class="featured-zx9__img" src="assets/home/mobile/image-speaker-zx9.png" alt="">
+        </div>
+        <h1 class="featured-zx9__heading">ZX9 Speaker</h1>
         <p class="featured-zx9__text">Upgrade to premium speakers that are phenomenally built to deliver remarkable
           sound.</p>
-        <a href="#" class="featured-zx9__link">See Product</a>
+        <input class="featured-zx9__btn btn btn-text--white" type="button" value="See Product">
       </div>
 
       <div class="featured-zx7">
-        <h4 class="featured-zx7__heading">ZX7 Speaker</h4>
-        <a href="#" class="featured-zx7__link">See Product</a>
+        <img class="featured-zx7__img" src="assets/home/mobile/image-speaker-zx7.jpg" alt="">
+        <div class="featured-zx7__inner">
+          <h2 class="featured-zx7__heading">ZX7 Speaker</h2>
+          <input class="featured-zx7__btn btn" type="button" value="See Product">
+        </div>
       </div>
 
-      <img src="" alt="" class="featured-yx1-img">
+      <div class="featured-yx1__img-container">
+        <img class="featured-yx1__img" src="assets/home/desktop/image-earphones-yx1.jpg" alt="">
+      </div>
+
       <div class="featured-yx1">
         <h4 class="featured-yx1__heading">YX1 Earphones</h4>
-        <a href="#" class="featured-yx1__link">See Product</a>
+        <a href="#" class="featured-yx1__link btn">See Product</a>
       </div>
     </div>
 
