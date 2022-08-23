@@ -226,5 +226,52 @@ header {
   background-color: var(--color-orange);
 }
 
+/* **************************************
+*****************************************
+SHOP SECTION
+*****************************************
+************************************** */
+
+.shop-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 280px;
+  height: 122px;
+  border-radius: 8px;
+  margin-bottom: 70px;
+  background-color: var(--color-light-grey);
+  color: var(--color-off-black);
+  text-align: center;
+}
+
+.shop-item__img-container {
+  position: absolute;
+  bottom: 45px;
+  width: 122px;
+}
+
+.shop-item__img-container img {
+  width: 100%;
+}
+
+.shop__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop__link-text {
+  margin-top: 3px;
+  margin-right: 6px;
+  color: #797979;
+  font-size: 12px;
+  letter-spacing: 0.85px;
+}
+
+.shop__link-arrow {
+  margin-bottom: 8.5px;
 }
 
