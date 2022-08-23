@@ -109,6 +109,60 @@ h6 {
   display: none;
 }
 
+/* **************************************
+*****************************************
+NAVIGATION
+*****************************************
+************************************** */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 6px 20px 0;
+  border-bottom: 1px solid #2d2d2d;
+  background-color: #131313;
+}
+
+.nav__tap-container-left,
+.nav__tap-container-right {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.nav__tap-container-left {
+  justify-content: flex-start;
+}
+
+.nav__tap-container-right {
+  justify-content: flex-end;
+}
+
+.nav__burger-container {
+  width: 15px;
+  padding-bottom: 4px;
+}
+
+.nav__logo-container {
+  width: 120px;
+}
+
+.nav__cart-container {
+  width: 20.5px;
+  padding-bottom: 1px;
+}
+
+.nav__burger,
+.nav__logo,
+.nav__cart {
+  width: 100%;
+  height: auto;
+}
+
 header {
   position: relative;
 }
