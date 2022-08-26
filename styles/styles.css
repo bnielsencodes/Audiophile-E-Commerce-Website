@@ -364,6 +364,40 @@ FEATURED SECTION
 
 /* **************************************
 *****************************************
+ABOUT SECTION
+*****************************************
+************************************** */
+
+.about {
+  text-align: center;
+}
+
+.about__img-container {
+  width: 100%;
+  margin-bottom: 25px;
+  filter: brightness(0.85);
+}
+
+.about__img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.about__heading {
+  line-height: 33px;
+}
+
+.about__heading span {
+  color: var(--color-orange);
+}
+
+.about__text {
+  margin-top: 22px;
+  color: #7d7d7d;
+}
+
+/* **************************************
+*****************************************
 FOOTER SECTION
 *****************************************
 ************************************** */
