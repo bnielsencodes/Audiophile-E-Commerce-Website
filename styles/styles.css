@@ -281,13 +281,14 @@ FEATURED SECTION
 *****************************************
 ************************************** */
 
+/* ZX9 SPEAKER */
 .featured-zx9 {
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  width: 280px;
+  width: 100%;
   height: 530px;
   padding: 0 25px 42px;
   border-radius: 8px;
@@ -325,9 +326,10 @@ FEATURED SECTION
   background-color: var(--color-off-black);
 }
 
+/* ZX7 SPEAKER */
 .featured-zx7 {
   position: relative;
-  width: 280px;
+  width: 100%;
 }
 
 .featured-zx7__img {
@@ -347,19 +349,43 @@ FEATURED SECTION
   color: var(--color-off-black);
 }
 
-.featured-zx7__btn {
+.featured-zx7__btn,
+.featured-yx1__btn {
   border: 1px solid var(--color-off-black);
   color: var(--color-off-black);
 }
 
+/* YX1 EARPHONES */
 .featured-yx1__img-container {
-  width: 280px;
+  width: 100%;
+  margin-bottom: 25px;
   filter: brightness(0.85);
 }
 
 .featured-yx1__img {
   width: 100%;
   border-radius: 8px;
+}
+
+.featured-yx1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 191px;
+  padding-left: 25px;
+  border-radius: 8px;
+  margin-bottom: 125px;
+  background-color: var(--color-light-grey);
+  color: var(--color-off-black);
+  text-align: justify;
+}
+
+.featured-yx1__heading {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 23px;
 }
 
 /* **************************************
