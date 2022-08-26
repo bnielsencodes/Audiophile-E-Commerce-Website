@@ -14,6 +14,16 @@ body {
   font: normal 500 15px/25px "Manrope", sans-serif;
 }
 
+/* HIDE SCROLLBAR BUT STILL ALLOW SCROLL (CHROME, SAFARI, OPERA) */
+body::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+/* HIDE SCROLLBAR BUT STILL ALLOW SCROLL (FIREFOX) */
+body {
+  scrollbar-width: none;
+}
+
 main {
   padding: 0 22px;
   margin-top: 100px;
