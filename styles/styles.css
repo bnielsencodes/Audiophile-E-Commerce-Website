@@ -362,3 +362,63 @@ FEATURED SECTION
   border-radius: 8px;
 }
 
+/* **************************************
+*****************************************
+FOOTER SECTION
+*****************************************
+************************************** */
+
+.footer {
+  padding: 0 20px 20px;
+  background-color: var(--color-off-black);
+  text-align: center;
+}
+
+.footer__top-border {
+  width: 100px;
+  border-top: 5px solid var(--color-orange);
+  margin: 0 auto;
+}
+
+.footer__logo-container {
+  margin: 42px 0;
+}
+
+.footer-menu {
+  padding: 0;
+  width: 120px;
+  margin: 0 auto 42px;
+  list-style-type: none;
+}
+
+.footer-menu__item {
+  margin-bottom: 15px;
+}
+
+.footer-menu__link {
+  color: var(--color-off-white);
+  font-size: 13px;
+  letter-spacing: 2px;
+}
+
+.footer-text,
+.footer-copy {
+  color: #878787;
+}
+
+.footer-text {
+  margin-bottom: 42px;
+  letter-spacing: 0.28px;
+}
+
+.footer-copy {
+  margin-bottom: 40px;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+  margin: 0 auto 8px;
+}
+
