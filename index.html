@@ -38,11 +38,203 @@
 <body>
   <!-- ********************************
   *************************************
+    NAVIGATION
+  *************************************
+  ********************************* -->
+  <nav class="nav">
+    <div class="nav__tap-container-left">
+      <div class="nav__burger-container">
+        <img class="nav__burger" src="assets/shared/tablet/icon-hamburger.svg"
+          alt="hamburger menu icon for dropdown navigation menu">
+      </div>
+    </div>
+
+    <!-- MD/LG SCREENS NAVIGATION -->
+    <ul class="menu hidden-sm">
+      <li class="menu__item">
+        <a href="index.html" class="menu__link">Home</a>
+      </li>
+      <li class="menu__item">
+        <a href="headphones.html" class="menu__link">Headphone</a>
+      </li>
+      <li class="menu__item">
+        <a href="speakers.html" class="menu__link">Speakers</a>
+      </li>
+      <li class="menu__item">
+        <a href="earphones.html" class="menu__link">Earphones</a>
+      </li>
+    </ul>
+
+    <!-- NAV LOGO -->
+    <a href="index.html" class="nav__logo-container">
+      <img class="nav__logo" src="assets/shared/desktop/logo.svg" alt="Audiophile brand logo">
+    </a>
+
+    <!-- NAV CART -->
+    <div class="nav__tap-container-right">
+      <div class="nav__cart-container">
+        <img class="nav__cart" src="assets/shared/desktop/icon-cart.svg" alt="shopping cart icon">
+      </div>
+    </div>
+  </nav>
+
+  <!-- ********************************
+  *************************************
     HAMBURGER NAV MENU
   *************************************
   ********************************* -->
   <div class="nav-overlay hidden">
     <ul class="nav-list">
+      <li class="nav-list__item">
+        <div class="shop-item">
+          <div class="shop-item__img-container">
+            <img src="assets/shared/desktop/image-category-thumbnail-headphones.png" alt="XX99 Headphones">
+          </div>
+          <h6 class="shop__heading">Headphones</h6>
+          <a href="headphones.html" class="shop__link">
+            <p class="shop__link-text">Shop</p>
+            <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="nav-list__item">
+        <div class="shop-item">
+          <div class="shop-item__img-container">
+            <img src="assets/shared/desktop/image-category-thumbnail-speakers.png" alt="ZX9 Speaker">
+          </div>
+          <h6 class="shop__heading">Speakers</h6>
+          <a href="speakers.html" class="shop__link">
+            <p class="shop__link-text">Shop</p>
+            <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="nav-list__item">
+        <div class="shop-item">
+          <div class="shop-item__img-container">
+            <img src="assets/shared/desktop/image-category-thumbnail-earphones.png" alt="YX1 Earphones">
+          </div>
+          <h6 class="shop__heading">Earphones</h6>
+          <a href="earphones.html" class="shop__link">
+            <p class="shop__link-text">Shop</p>
+            <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ********************************
+  *************************************
+    CART OVERLAY
+  *************************************
+  ********************************* -->
+  <div class="cart-overlay hidden">
+    <div>
+      <div>
+        <h4>Cart</h4>
+        <h4>(0)</h4>
+      </div>
+      <p>Remove all</p>
+    </div>
+
+    <div>
+      <div>
+        <div>
+
+        </div>
+        <!-- img -->
+        <div>
+          <h5>
+            <!-- product name -->
+          </h5>
+          <h5>
+            <!-- product price -->
+          </h5>
+        </div>
+      </div>
+      <div>
+        <div>
+          <!-- negative icon -->
+        </div>
+        <div>
+          <!-- quantity -->
+        </div>
+        <div>
+          <!-- position icon -->
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <!-- img -->
+        <div>
+          <h5>
+            <!-- product name -->
+          </h5>
+          <h5>
+            <!-- product price -->
+          </h5>
+        </div>
+      </div>
+      <div>
+        <div>
+          <!-- negative icon -->
+        </div>
+        <div>
+          <!-- quantity -->
+        </div>
+        <div>
+          <!-- position icon -->
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <!-- img -->
+        <div>
+          <h5>
+            <!-- product name -->
+          </h5>
+          <h5>
+            <!-- product price -->
+          </h5>
+        </div>
+      </div>
+      <div>
+        <div>
+          <!-- negative icon -->
+        </div>
+        <div>
+          <!-- quantity -->
+        </div>
+        <div>
+          <!-- position icon -->
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <!-- total -->
+      </div>
+      <div>
+        <!-- total price -->
+      </div>
+    </div>
+
+    <div>
+      <!-- checkout input -->
+    </div>
+    <!-- <ul class="nav-list">
       <li class="nav-list__item">
         <div class="shop-item">
           <div class="shop-item__img-container">
@@ -85,50 +277,8 @@
           </a>
         </div>
       </li>
-    </ul>
+    </ul> -->
   </div>
-
-  <!-- ********************************
-  *************************************
-    NAVIGATION
-  *************************************
-  ********************************* -->
-  <nav class="nav">
-    <div class="nav__tap-container-left">
-      <div class="nav__burger-container">
-        <img class="nav__burger" src="assets/shared/tablet/icon-hamburger.svg"
-          alt="hamburger menu icon for dropdown navigation menu">
-      </div>
-    </div>
-
-    <!-- MD/LG SCREENS NAVIGATION -->
-    <ul class="menu hidden-sm">
-      <li class="menu__item">
-        <a href="index.html" class="menu__link">Home</a>
-      </li>
-      <li class="menu__item">
-        <a href="headphones.html" class="menu__link">Headphone</a>
-      </li>
-      <li class="menu__item">
-        <a href="speakers.html" class="menu__link">Speakers</a>
-      </li>
-      <li class="menu__item">
-        <a href="earphones.html" class="menu__link">Earphones</a>
-      </li>
-    </ul>
-
-    <!-- NAV LOGO -->
-    <div class="nav__logo-container">
-      <img class="nav__logo" src="assets/shared/desktop/logo.svg" alt="Audiophile brand logo">
-    </div>
-
-    <!-- NAV CART -->
-    <div class="nav__tap-container-right">
-      <div class="nav__cart-container">
-        <img class="nav__cart" src="assets/shared/desktop/icon-cart.svg" alt="shopping cart icon">
-      </div>
-    </div>
-  </nav>
 
   <!-- ********************************
   *************************************
@@ -142,7 +292,7 @@
       <h1 class="header__heading">X99 Mark II Headphones</h1>
       <p class="header__text">Experience natural, lifelike audio and exceptional build quality made for the
         passionate music enthusiast</p>
-      <input class="header__btn btn btn-text--white" type="button" value="See Product">
+      <input class="btn btn--orange btn-text--white" type="button" value="See Product">
     </div>
   </header>
 
@@ -210,7 +360,9 @@
         <h1 class="featured-zx9__heading">ZX9 Speaker</h1>
         <p class="featured-zx9__text">Upgrade to premium speakers that are phenomenally built to deliver remarkable
           sound.</p>
-        <input class="featured-zx9__btn btn btn-text--white" type="button" value="See Product">
+        <a href="product-zx9-speaker.html">
+          <input class="btn btn--black btn-text--white" type="button" value="See Product">
+        </a>
       </div>
 
       <!-- ZX7 SPEAKER -->
@@ -218,7 +370,9 @@
         <img class="featured-zx7__img" src="assets/home/mobile/image-speaker-zx7.jpg" alt="ZX7 Speaker">
         <div class="featured-zx7__inner">
           <h2 class="featured-zx7__heading">ZX7 Speaker</h2>
-          <input class="featured-zx7__btn btn" type="button" value="See Product">
+          <a href="product-zx7-speaker.html">
+            <input class="btn btn--border" type="button" value="See Product">
+          </a>
         </div>
       </div>
 
@@ -229,7 +383,9 @@
 
       <div class="featured-yx1">
         <h4 class="featured-yx1__heading">YX1 Earphones</h4>
-        <input class="featured-yx1__btn btn" type="button" value="See Product">
+        <a href="product-yx1-earphones.html">
+          <input class="btn btn--border" type="button" value="See Product">
+        </a>
       </div>
     </div>
 
