@@ -1,0 +1,156 @@
+.current-product--main {
+  margin-top: 0;
+}
+
+.current-product-header {
+  display: flex;
+  justify-content: flex-start;
+  height: 52px;
+  background: none;
+}
+
+.current-product-header a {
+  margin: 0px 0 7px;
+  color: #7d7d7d;
+}
+
+.products-header__heading {
+  color: var(--color-off-white);
+  font-weight: 500;
+  letter-spacing: 1.65px;
+}
+
+.current-product-container {
+  margin-bottom: 80px;
+  text-align: left;
+}
+
+.current-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.current-product:not(:last-child) {
+  margin-bottom: 110px;
+}
+
+.current-product__img-container {
+  width: 100%;
+}
+
+.current-product__img-container img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+#overline--small-text {
+  font-size: 12px;
+  letter-spacing: 9px;
+}
+
+.current-product__heading {
+  margin: 6px 0 0;
+  line-height: 34px;
+}
+
+.current-product__heading:last-of-type {
+  width: 200px;
+}
+
+.current-product__text {
+  color: #7d7d7d;
+  margin-bottom: 18px;
+}
+
+.current-product__price-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.fa-dollar-sign {
+  padding-right: 4.5px;
+}
+
+.current-product__text,
+.current-product-features p,
+.in-the-box-list__item {
+  color: #7d7d7d;
+}
+
+.current-product-features p:first-of-type {
+  font-size: ;
+}
+
+.current-product-features p:first-of-type {
+  margin-top: 18px;
+}
+
+.in-the-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 75px 0 55px;
+}
+
+.in-the-box-list {
+  padding-left: 0;
+}
+
+.in-the-box-list {
+  padding-left: 0;
+}
+
+.in-the-box-list__item {
+  font-size: 13px;
+}
+
+.in-the-box-list__item span {
+  padding-right: 20px;
+  color: var(--color-orange);
+}
+
+.in-the-box-list__item:nth-child(2) span {
+  padding-right: 17px;
+}
+
+.img-gallery {
+  margin-bottom: 90px;
+}
+
+.img-gallery__img,
+.also-like__img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.img-gallery__img-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.img-gallery__img--three {
+  filter: brightness(0.575);
+}
+
+.also-like {
+  text-align: center;
+}
+
+.also-like__container {
+  margin-bottom: 150px;
+}
+
+.also-like__inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 220px;
+  margin: 30px 0 50px;
+}
