@@ -98,6 +98,12 @@ h2 {
   line-height: 44px;
 }
 
+h5 {
+  font-size: 20px;
+  letter-spacing: 1.7px;
+  line-height: 33px;
+}
+
 h6 {
   font-size: 13px;
   letter-spacing: 1.3px;
