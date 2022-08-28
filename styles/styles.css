@@ -675,3 +675,37 @@ FOOTER SECTION
   margin: 0 auto 8px;
 }
 
+/* **************************************
+*****************************************
+768PX MEDIA QUERIES
+*****************************************
+************************************** */
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    line-height: 46px;
+  }
+
+
+  .header__img::after {
+    background: url("../../assets/home/tablet/image-header.jpg") center/contain
+      no-repeat;
+  }
+
+  .header__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 11.5px;
+  }
+
+  .header__heading {
+    width: 340px;
+  }
+
+  .header__text {
+    width: 330px;
+  }
+}
+
