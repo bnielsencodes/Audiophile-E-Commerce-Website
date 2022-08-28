@@ -58,3 +58,34 @@
   color: #7d7d7d;
   margin-bottom: 20px;
 }
+
+@media (min-width: 768px) {
+  .header--products {
+    height: 200px;
+  }
+
+  .header--products__heading {
+    font-size: 34px;
+  }
+
+  #main--products {
+    margin-top: 105px;
+  }
+
+  .products__img-container img {
+    margin-bottom: 28px;
+  }
+
+  .products__heading {
+    width: 340px;
+  }
+
+  .products__heading--speakers {
+    width: 220px;
+  }
+
+  .products__text {
+    width: 560px;
+    margin-top: 20px;
+  }
+}
