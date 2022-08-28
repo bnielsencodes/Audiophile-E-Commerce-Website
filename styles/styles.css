@@ -401,7 +401,12 @@ header {
   text-align: center;
 }
 
+.header__heading {
+  max-width: 300px;
+}
+
 .header__text {
+  max-width: 330px;
   color: #c7c7c7;
   margin-bottom: 18px;
   font-size: 14px;
@@ -436,8 +441,11 @@ SHOP SECTION
   justify-content: flex-end;
   align-items: center;
   width: 100%;
+  max-width: 345px;
   height: 122px;
   border-radius: 8px;
+  margin-right: auto;
+  margin-left: auto;
   background-color: var(--color-light-grey);
   color: var(--color-off-black);
   text-align: center;
@@ -518,6 +526,7 @@ FEATURED SECTION
 }
 
 .featured-zx9__text {
+  max-width: 350px;
   margin: 18px 0 20px;
   color: var(--color-light-grey);
   font-size: 13px;
@@ -605,6 +614,8 @@ ABOUT SECTION
 }
 
 .about__heading {
+  max-width: 320px;
+  margin: 0 auto;
   line-height: 33px;
 }
 
@@ -613,7 +624,8 @@ ABOUT SECTION
 }
 
 .about__text {
-  margin: 22px 0 120px;
+  max-width: 500px;
+  margin: 22px auto 120px;
   color: #7d7d7d;
 }
 
@@ -661,7 +673,8 @@ FOOTER SECTION
 }
 
 .footer-text {
-  margin-bottom: 42px;
+  max-width: 488px;
+  margin: 0 auto 42px;
   letter-spacing: 0.28px;
 }
 
@@ -727,6 +740,11 @@ FOOTER SECTION
     display: none;
   }
 
+  .btn {
+    width: 148px;
+    height: 44px;
+  }
+
   .nav {
     padding: 6px 28px 0;
   }
@@ -752,11 +770,7 @@ FOOTER SECTION
   }
 
   .header__heading {
-    width: 340px;
-  }
-
-  .header__text {
-    width: 330px;
+    max-width: 340px;
   }
 
   main {
@@ -775,8 +789,51 @@ FOOTER SECTION
     margin-bottom: 0;
   }
 
+  .featured-zx9 {
+    background-size: contain;
+  }
+
+  .featured-zx9__heading {
+    font-size: 38px;
+  }
+
+  .featured-zx9__text {
+    font-size: 14px;
+  }
+
   .featured-zx7__img {
     margin-bottom: 25px;
+    filter: brightness(0.85);
+  }
+
+  .featured-zx7__inner {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+  }
+
+  .featured-zx7__heading {
+    font-size: 32px;
+  }
+
+  .btn--zx7 {
+    filter: brightness(0.85);
+  }
+
+  .featured-yx1 h4,
+  .featured-yx1 a {
+    padding-left: 15px;
+  }
+
+  .featured-yx1__img-container {
+    margin-bottom: 0;
+  }
+
+  .featured-yx1__heading {
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
   }
 
   .earphones-md-container {
@@ -792,7 +849,7 @@ FOOTER SECTION
   }
 
   .about__heading {
-    width: 585px;
+    max-width: 585px;
     margin: 0 auto;
     line-height: 46px;
   }
@@ -802,7 +859,7 @@ FOOTER SECTION
   }
 
   .about__text {
-    width: 580px;
+    max-width: 580px;
     margin: 28px auto 120px;
   }
 
