@@ -19,6 +19,23 @@ hamburgerMenuToggle.addEventListener("click", () => {
 
 /* ------------------------------------
 ---------------------------------------
+SHOW/HIDE CART OVERLAY ON CART ICON CLICK EVENT
+---------------------------------------
+------------------------------------ */
+const cartToggle = document.querySelector(".nav__tap-container-right");
+const cartIcon = document.querySelector(".nav__cart");
+const cartOverlay = document.querySelector(".cart-overlay");
+
+cartToggle.addEventListener("click", () => {
+  document.body.style.overflowY =
+    document.body.style.overflowY === "hidden" ? "visible" : "hidden";
+  main.classList.toggle("lower-main");
+  cartOverlay.classList.toggle("hidden");
+  cartIcon.classList.toggle("cart-icon--active");
+});
+
+/* ------------------------------------
+---------------------------------------
 FORMAT CHECKOUT FORM PHONE NUMBER ON USER INPUT
 source: https://stackoverflow.com/questions/30058927/format-a-phone-number-as-a-user-types-using-pure-javascript
 ---------------------------------------
