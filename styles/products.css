@@ -2,11 +2,11 @@
   margin-top: 65px;
 }
 
-.products-header {
+.header--products {
   height: 95px;
 }
 
-.products-header__heading {
+.header--products__heading {
   color: var(--color-off-white);
   font-weight: 500;
   letter-spacing: 1.65px;

@@ -2,14 +2,14 @@
   margin-top: 0;
 }
 
-.current-product-header {
+.header--current-product {
   display: flex;
   justify-content: flex-start;
   height: 52px;
   background: none;
 }
 
-.current-product-header a {
+.header--current-product a {
   margin: 0px 0 7px;
   color: #7d7d7d;
 }
