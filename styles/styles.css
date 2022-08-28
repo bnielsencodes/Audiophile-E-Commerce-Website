@@ -159,7 +159,8 @@ h6 {
 }
 
 .hidden,
-.hidden-sm {
+.hidden-sm,
+.hidden-sm-md {
   display: none;
 }
 
@@ -688,9 +689,51 @@ FOOTER SECTION
     line-height: 46px;
   }
 
+  h2 {
+    font-size: 39px;
+    letter-spacing: 1.5px;
+    line-height: 44px;
+  }
+
+  /* h3 {
+    font-size: 32px;
+    letter-spacing: 1.15px;
+    line-height: 36px;
+  } */
+
+  /* h4 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 38px;
+  } */
+
+  /* h5 {
+    font-size: 24px;
+    letter-spacing: 1.7px;
+    line-height: 33px;
+  } */
+
+  /* h6 {
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    line-height: 24px;
+  } */
+
+  .hidden-sm {
+    display: block;
+  }
+
+  .hidden-md {
+    display: none;
+  }
+
+  .nav {
+    padding: 6px 28px 0;
+  }
 
   .nav__logo-container {
     width: 125px;
+    margin-left: 14px;
   }
 
   .nav__tap-container-right {
@@ -714,6 +757,57 @@ FOOTER SECTION
 
   .header__text {
     width: 330px;
+  }
+
+  main {
+    padding: 0 28px;
+    margin-top: 128px;
+  }
+
+  .shop-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 80px;
+  }
+
+  .shop-item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .featured-zx7__img {
+    margin-bottom: 25px;
+  }
+
+  .earphones-md-container {
+    display: flex;
+    gap: 12px;
+    height: 325px;
+    margin-bottom: 100px;
+  }
+
+  .featured-yx1 {
+    height: 100%;
+    margin-bottom: 0;
+  }
+
+  .about__heading {
+    width: 585px;
+    margin: 0 auto;
+    line-height: 46px;
+  }
+
+  .about__img-container {
+    margin-bottom: 58px;
+  }
+
+  .about__text {
+    width: 580px;
+    margin: 28px auto 120px;
+  }
+
+  .footer {
+    padding: 0 28px 20px;
   }
 }
 
