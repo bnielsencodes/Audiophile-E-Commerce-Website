@@ -76,14 +76,40 @@
   padding-right: 4.5px;
 }
 
+.current-product__add-to-cart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-product-quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 18px;
+  width: 120px;
+  height: 42px;
+  margin-bottom: 9px;
+  background-color: var(--color-light-grey);
+  font-size: 12px;
+}
+
+.current-product-quantity p {
+  margin: 0;
+}
+
+.current-product-quantity p:nth-child(2) {
+  font-size: 14px;
+}
+
+.current-product-quantity p:not(:nth-child(2)) {
+  color: #b5b5b5;
+  font-size: 15px;
+}
+
 .current-product__text,
 .current-product-features p,
 .in-the-box-list__item {
   color: #7d7d7d;
-}
-
-.current-product-features p:first-of-type {
-  font-size: ;
 }
 
 .current-product-features p:first-of-type {
