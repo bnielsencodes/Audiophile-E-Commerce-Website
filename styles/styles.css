@@ -809,5 +809,44 @@ FOOTER SECTION
   .footer {
     padding: 0 28px 20px;
   }
+
+  .footer-md-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer__top-border {
+    margin: 0;
+  }
+
+  .footer__logo-container {
+    margin: 55px 0 25px;
+  }
+
+  .footer-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 435px;
+    margin: 0;
+  }
+
+  .footer-text {
+    max-width: 100%;
+    margin: 16px 0 70px;
+    text-align: left;
+  }
+
+  .footer-bottom-md-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-socials {
+    margin: 0;
+  }
 }
 
