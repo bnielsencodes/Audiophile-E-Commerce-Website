@@ -689,6 +689,14 @@ FOOTER SECTION
   }
 
 
+  .nav__logo-container {
+    width: 125px;
+  }
+
+  .nav__tap-container-right {
+    margin-left: auto;
+  }
+
   .header__img::after {
     background: url("../../assets/home/tablet/image-header.jpg") center/contain
       no-repeat;
