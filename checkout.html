@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ********************************
+    GOOGLE FONTS 
+    ********************************* -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- ********************************
+    NORMALIZE CSS
+    ********************************* -->
+  <link rel="stylesheet" href="styles/normalize.css" />
+
+  <!-- ********************************
+    MAIN STYLESHEET
+    ********************************* -->
+  <link rel="stylesheet" href="styles/styles.css" />
+
+  <!-- ********************************
+    FAVICON
+    ********************************* -->
+  <link rel="icon" type="image/x-icon" href="assets/shared/desktop/image-category-thumbnail-headphones.png">
+
+  <!-- ********************************
+    FONT AWESOME KIT
+    ********************************* -->
+  <script src="https://kit.fontawesome.com/7158704905.js" crossorigin="anonymous"></script>
+
+  <title>Audiophile | YX1 Earphones</title>
+</head>
+
+<body>
+  <!-- ********************************
+  *************************************
+    NAVIGATION
+  *************************************
+  ********************************* -->
+  <nav class="nav">
+    <div class="nav__tap-container-left">
+      <div class="nav__burger-container">
+        <img class="nav__burger" src="assets/shared/tablet/icon-hamburger.svg"
+          alt="hamburger menu icon for dropdown navigation menu">
+      </div>
+    </div>
+
+    <!-- MD/LG SCREENS NAVIGATION -->
+    <ul class="menu hidden-sm">
+      <li class="menu__item">
+        <a href="index.html" class="menu__link">Home</a>
+      </li>
+      <li class="menu__item">
+        <a href="headphones.html" class="menu__link">Headphone</a>
+      </li>
+      <li class="menu__item">
+        <a href="speakers.html" class="menu__link">Speakers</a>
+      </li>
+      <li class="menu__item">
+        <a href="earphones.html" class="menu__link">Earphones</a>
+      </li>
+    </ul>
+
+    <!-- NAV LOGO -->
+    <a href="index.html" class="nav__logo-container">
+      <img class="nav__logo" src="assets/shared/desktop/logo.svg" alt="Audiophile brand logo">
+    </a>
+
+    <!-- NAV CART -->
+    <div class="nav__tap-container-right">
+      <div class="nav__cart-container">
+        <img class="nav__cart" src="assets/shared/desktop/icon-cart.svg" alt="shopping cart icon">
+      </div>
+    </div>
+  </nav>
+
+  <!-- ********************************
+  *************************************
+    HAMBURGER NAV MENU
+  *************************************
+  ********************************* -->
+  <div class="nav-overlay hidden">
+    <ul class="nav-list">
+      <li class="nav-list__item">
+        <div class="shop-item">
+          <div class="shop-item__img-container">
+            <img src="assets/shared/desktop/image-category-thumbnail-headphones.png" alt="XX99 Headphones">
+          </div>
+          <h6 class="shop__heading">Headphones</h6>
+          <a href="headphones.html" class="shop__link">
+            <p class="shop__link-text">Shop</p>
+            <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="nav-list__item">
+        <div class="shop-item">
+          <div class="shop-item__img-container">
+            <img src="assets/shared/desktop/image-category-thumbnail-speakers.png" alt="ZX9 Speaker">
+          </div>
+          <h6 class="shop__heading">Speakers</h6>
+          <a href="speakers.html" class="shop__link">
+            <p class="shop__link-text">Shop</p>
+            <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="nav-list__item">
+        <div class="shop-item">
+          <div class="shop-item__img-container">
+            <img src="assets/shared/desktop/image-category-thumbnail-earphones.png" alt="YX1 Earphones">
+          </div>
+          <h6 class="shop__heading">Earphones</h6>
+          <a href="earphones.html" class="shop__link">
+            <p class="shop__link-text">Shop</p>
+            <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- ********************************
+  *************************************
+    CART OVERLAY
+  *************************************
+  ********************************* -->
+  <div class="cart-overlay hidden">
+    <div>
+      <div>
+        <h4>Cart</h4>
+        <h4>(0)</h4>
+      </div>
+      <p>Remove all</p>
+    </div>
+
+    <div>
+      <div>
+        <div>
+
+        </div>
+        <!-- img -->
+        <div>
+          <h5>
+            <!-- product name -->
+          </h5>
+          <h5>
+            <!-- product price -->
+          </h5>
+        </div>
+      </div>
+      <div>
+        <div>
+          <!-- negative icon -->
+        </div>
+        <div>
+          <!-- quantity -->
+        </div>
+        <div>
+          <!-- position icon -->
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <!-- img -->
+        <div>
+          <h5>
+            <!-- product name -->
+          </h5>
+          <h5>
+            <!-- product price -->
+          </h5>
+        </div>
+      </div>
+      <div>
+        <div>
+          <!-- negative icon -->
+        </div>
+        <div>
+          <!-- quantity -->
+        </div>
+        <div>
+          <!-- position icon -->
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <!-- img -->
+        <div>
+          <h5>
+            <!-- product name -->
+          </h5>
+          <h5>
+            <!-- product price -->
+          </h5>
+        </div>
+      </div>
+      <div>
+        <div>
+          <!-- negative icon -->
+        </div>
+        <div>
+          <!-- quantity -->
+        </div>
+        <div>
+          <!-- position icon -->
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <!-- total -->
+      </div>
+      <div>
+        <!-- total price -->
+      </div>
+    </div>
+
+    <div>
+      <!-- checkout input -->
+    </div>
+    <!-- <ul class="nav-list">
+      <li class="nav-list__item">
+        <div class="shop-item">
+          <div class="shop-item__img-container">
+            <img src="assets/shared/desktop/image-category-thumbnail-headphones.png" alt="XX99 Headphones">
+          </div>
+          <h6 class="shop__heading">Headphones</h6>
+          <a href="product-xx99-mark-one-headphones.html" class="shop__link">
+            <p class="shop__link-text">Shop</p>
+            <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="nav-list__item">
+        <div class="shop-item">
+          <div class="shop-item__img-container">
+            <img src="assets/shared/desktop/image-category-thumbnail-speakers.png" alt="ZX9 Speaker">
+          </div>
+          <h6 class="shop__heading">Speakers</h6>
+          <a href="product-zx9-speaker.html" class="shop__link">
+            <p class="shop__link-text">Shop</p>
+            <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li class="nav-list__item">
+        <div class="shop-item">
+          <div class="shop-item__img-container">
+            <img src="assets/shared/desktop/image-category-thumbnail-earphones.png" alt="YX1 Earphones">
+          </div>
+          <h6 class="shop__heading">Earphones</h6>
+          <a href="product-earphones.html" class="shop__link">
+            <p class="shop__link-text">Shop</p>
+            <svg class="shop__link-arrow" width="8" height="12" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.322 1l5 5-5 5" stroke="#D87D4A" stroke-width="2" fill="none" fill-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </li>
+    </ul> -->
+  </div>
+
+  <!-- ********************************
+  *************************************
+    HEADER SECTION
+  *************************************
+  ********************************* -->
+  <header class="header--checkout">
+    <a href="earphones.html">Go Back</a>
+  </header>
+
+  <main class="main main--checkout">
+    <!-- ********************************
+    *************************************
+      CHECKOUT FORM
+    *************************************
+    ********************************* -->
+    <form id="checkout-form" class="checkout" action="" method="POST">
+      <h1 class="checkout-heading">Checkout</h1>
+
+      <fieldset>
+        <legend class="sub-title sub-title--checkout">Billing Details</legend>
+        <div>
+          <label for="checkout-name" class="checkout-form__label">Name</label>
+          <br>
+          <input id="checkout-name" type="text" placeholder="Alexei Ward">
+        </div>
+
+        <div>
+          <label for="checkout-email" class="checkout-form__label">Email Address</label>
+          <br>
+          <input id="checkout-email" type="email" placeholder="alexei@mail.com">
+        </div>
+
+        <div>
+          <label for="checkout-phone" class="checkout-form__label">Phone Number</label>
+          <br>
+          <input id="checkout-phone" type="tel" maxlength="16" placeholder="202-555-0136">
+        </div>
+      </fieldset>
+
+
+
+      <fieldset>
+        <legend class="sub-title sub-title--checkout">Shipping Info</legend>
+        <div>
+          <label for="checkout-address" class="checkout-form__label">Your Address</label>
+          <br>
+          <input id="checkout-address" type="text" placeholder="1137 Williams Avenue">
+        </div>
+
+        <div>
+          <label for="checkout-zip" class="checkout-form__label">ZIP Code</label>
+          <br>
+          <input id="checkout-zip" type="text" maxlength="5" placeholder="10001">
+        </div>
+
+        <div>
+          <label for="checkout-city" class="checkout-form__label">City</label>
+          <br>
+          <input id="checkout-city" type="text" placeholder="New York">
+        </div>
+
+        <div>
+          <label for="checkout-state" class="checkout-form__label">State</label>
+          <br>
+          <select id="checkout-state" name="state">
+            <option value="#">Choose item</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District Of Columbia</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+            <option value="IN">Indiana</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="ME">Maine</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NV">Nevada</option>
+            <option value="NH">New Hampshire</option>
+            <option value="NJ">New Jersey</option>
+            <option value="NM">New Mexico</option>
+            <option value="NY">New York</option>
+            <option value="NC">North Carolina</option>
+            <option value="ND">North Dakota</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="checkout-country" class="checkout-form__label">Country</label>
+          <br>
+          <input id="checkout-country" type="text" placeholder="United States">
+        </div>
+      </fieldset>
+
+
+
+      <fieldset>
+        <legend class="sub-title sub-title--checkout">Payment Details</legend>
+        <fieldset>
+          <legend class="payment-legend">Payment Method</legend>
+          <div class="radio-group">
+            <input id="checkout-payment-1" type="radio" name="payment">
+            <label for="checkout-payment-1" class="checkout-payment-label">e-Money</label>
+          </div>
+
+          <div class="radio-group">
+            <input id="checkout-payment-2" type="radio" name="payment">
+            <label for="checkout-payment-2" class="checkout-payment-label">Cash on Delivery</label>
+          </div>
+        </fieldset>
+
+
+        <div>
+          <label for="checkout-e-number" class="checkout-form__label">e-Money Number</label>
+          <br>
+          <input id="checkout-e-number" type="number" maxlength="9" placeholder="238521993">
+        </div>
+
+        <div class="last-form-div">
+          <label for="checkout-pin" class="checkout-form__label">e-Money PIN</label>
+          <br>
+          <input id="checkout-pin" type="number" maxlength="4" placeholder="6891">
+        </div>
+      </fieldset>
+    </form>
+
+
+    <div class="summary-section">
+      <h4 class="summary-section__heading">Summary</h4>
+      <div>
+        <div class="summary-item">
+          <div class="summary-item__left">
+            <div class="summary-item__img-container">
+              <img src="assets/cart/image-xx99-mark-two-headphones.jpg" alt="">
+            </div>
+            <div class="summary-product-price">
+              <h6>XX99 Mark II</h6>
+              <div class="summary__price-container">
+                <i class="summary__dollar-sign fa-solid fa-dollar-sign"></i>
+                <p class="summary__price">2,999</p>
+              </div>
+            </div>
+          </div>
+          <p class="summary__quantity">x1</p>
+        </div>
+
+        <div class="summary-item">
+          <div class="summary-item__left">
+            <div class="summary-item__img-container">
+              <img src="assets/cart/image-xx59-headphones.jpg" alt="">
+            </div>
+            <div class="summary-product-price">
+              <h6>XX59</h6>
+              <div class="summary__price-container">
+                <i class="summary__dollar-sign fa-solid fa-dollar-sign"></i>
+                <p class="summary__price">899</p>
+              </div>
+            </div>
+          </div>
+          <p class="summary__quantity">x2</p>
+        </div>
+
+        <div class="summary-item">
+          <div class="summary-item__left">
+            <div class="summary-item__img-container">
+              <img src="assets/cart/image-yx1-earphones.jpg" alt="">
+            </div>
+            <div class="summary-product-price">
+              <h6>YX1</h6>
+              <div class="summary__price-container">
+                <i class="summary__dollar-sign fa-solid fa-dollar-sign"></i>
+                <p class="summary__price">599</p>
+              </div>
+            </div>
+          </div>
+          <p class="summary__quantity">x1</p>
+        </div>
+
+      </div>
+
+
+      <div class="summary-total-section">
+        <div class="summary-total__item">
+          <p>Total</p>
+          <div class="summary__price-container">
+            <i class="summary-total__dollar-sign fa-solid fa-dollar-sign"></i>
+            <p class="summary-total__price">5,396</p>
+          </div>
+        </div>
+
+        <div class="summary-total__item">
+          <p>Shipping</p>
+          <div class="summary__price-container">
+            <i class="summary-total__dollar-sign fa-solid fa-dollar-sign"></i>
+            <p class="summary-total__price">50</p>
+          </div>
+        </div>
+
+        <div class="summary-total__item">
+          <p>VAT (Included)</p>
+          <div class="summary__price-container">
+            <i class="summary-total__dollar-sign fa-solid fa-dollar-sign"></i>
+            <p class="summary-total__price">1,079</p>
+          </div>
+        </div>
+
+        <div class="summary-total__item">
+          <p>Grand Total</p>
+          <div class="summary__price-container">
+            <i class="summary-total__dollar-sign fa-solid fa-dollar-sign grand-dollar-sign"></i>
+            <p class="summary-total__price grand-total">5,446</p>
+          </div>
+        </div>
+      </div>
+
+      <a href="#" class="checkout-submit-link">
+        <input id="checkout-submit-btn" class="btn btn--orange btn-text--white" type="button" value="Continue & Pay">
+      </a>
+    </div>
+  </main>
+
+  <!-- ********************************
+  *************************************
+    FOOTER SECTION
+  *************************************
+  ********************************* -->
+  <div class="footer">
+    <div class="footer__top-border"></div>
+    <!-- FOOTER LOGO -->
+    <div class="footer__logo-container">
+      <img class="footer__logo" src="assets/shared/desktop/logo.svg" alt="Audiophile brand logo">
+    </div>
+    <!-- FOOTER NAV MENU -->
+    <ul class="footer-menu">
+      <li class="footer-menu__item">
+        <a href="index.html" class="footer-menu__link">Home</a>
+      </li>
+      <li class="footer-menu__item">
+        <a href="headphones.html" class="footer-menu__link">Headphones</a>
+      </li>
+      <li class="footer-menu__item">
+        <a href="speakers.html" class="footer-menu__link">Speakers</a>
+      </li>
+      <li class="footer-menu__item">
+        <a href="earphones.html" class="footer-menu__link">Earphones</a>
+      </li>
+    </ul>
+    <!-- FOOTER TEXT -->
+    <p class="footer-text">Audiophile is an all-in-one stop to fulfill your audio needs. We're a small team of music
+      lovers and sound specialists who are devoted to helping you get the most out of personal audio. Come and visit
+      our
+      demo facility - we're open 7 days a week.</p>
+    <!-- FOOTER COPYRIGHT -->
+    <p class="footer-copy">Copyright 2022. All rights reserved</p>
+    <!-- FOOTER SOCIAL LINKS -->
+    <div class="footer-socials">
+      <a href="#" class="footer-socials__link">
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z"
+            fill="#FFF" fill-rule="nonzero" />
+        </svg>
+      </a>
+      <a href="#" class="footer-socials__link">
+        <svg width="24" height="20" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M24 2.557a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.608a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.248c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.149a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.54a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.557z"
+            fill="#FFF" fill-rule="nonzero" />
+        </svg>
+      </a>
+      <a href="#" class="footer-socials__link">
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"
+            fill="#FFF" fill-rule="nonzero" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,5 +1,6 @@
 @import url("products.css");
 @import url("current-product.css");
+@import url("checkout.css");
 
 * {
   box-sizing: border-box;
