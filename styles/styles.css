@@ -114,7 +114,7 @@ h6 {
 
 .overline {
   color: var(--color-orange);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   letter-spacing: 10px;
   line-height: 19px;
@@ -732,6 +732,11 @@ FOOTER SECTION
     line-height: 24px;
   } */
 
+  .overline {
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+
   .hidden-sm {
     display: block;
   }
@@ -783,6 +788,10 @@ FOOTER SECTION
     justify-content: space-between;
     gap: 12px;
     margin-bottom: 80px;
+  }
+
+  .shop-section--products {
+    margin-bottom: 110px;
   }
 
   .shop-item:not(:last-child) {

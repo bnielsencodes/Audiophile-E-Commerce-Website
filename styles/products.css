@@ -1,4 +1,4 @@
-.main--product {
+#main--products {
   margin-top: 65px;
 }
 
@@ -50,7 +50,7 @@
   line-height: 34px;
 }
 
-.products__heading:last-of-type {
+.products__heading {
   width: 200px;
 }
 
