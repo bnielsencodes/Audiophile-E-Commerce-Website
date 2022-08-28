@@ -20,6 +20,7 @@ hamburgerMenuToggle.addEventListener("click", () => {
 /* ------------------------------------
 ---------------------------------------
 FORMAT CHECKOUT FORM PHONE NUMBER ON USER INPUT
+source: https://stackoverflow.com/questions/30058927/format-a-phone-number-as-a-user-types-using-pure-javascript
 ---------------------------------------
 ------------------------------------ */
 const isNumericInput = (event) => {
