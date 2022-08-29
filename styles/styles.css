@@ -773,6 +773,15 @@ FOOTER SECTION
     margin-bottom: 0;
   }
 
+  .cart {
+    width: 320px;
+    margin: 0 8px 0 auto;
+  }
+
+  .header {
+    padding: 0 30px;
+  }
+
   .header__img::after {
     background: url("../../assets/home/tablet/image-header.jpg") center/contain
       no-repeat;
