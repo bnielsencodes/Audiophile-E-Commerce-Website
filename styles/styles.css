@@ -875,13 +875,21 @@ FOOTER SECTION
   .earphones-md-container {
     display: flex;
     gap: 12px;
-    height: 325px;
+    min-height: 325px;
     margin-bottom: 100px;
   }
 
+  .featured-yx1-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--color-light-grey);
+  }
+
   .featured-yx1 {
-    height: 100%;
-    margin-bottom: 0;
+    width: 100%;
+    margin: auto 0;
   }
 
   .about__heading {
@@ -926,6 +934,7 @@ FOOTER SECTION
   }
 
   .footer-text {
+    width: 710px;
     max-width: 100%;
     margin: 16px 0 70px;
     text-align: left;
