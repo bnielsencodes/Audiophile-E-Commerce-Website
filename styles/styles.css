@@ -160,7 +160,8 @@ h6 {
 
 .hidden,
 .hidden-sm,
-.hidden-sm-md {
+.hidden-sm-md,
+.hidden-sm-lg {
   display: none;
 }
 
@@ -742,7 +743,8 @@ FOOTER SECTION
     font-size: 12px;
   }
 
-  .hidden-sm {
+  .hidden-sm,
+  .hidden-sm-lg {
     display: block;
   }
 
@@ -778,7 +780,7 @@ FOOTER SECTION
     margin: 0 8px 0 auto;
   }
 
-  .header {
+  header {
     padding: 0 30px;
   }
 
