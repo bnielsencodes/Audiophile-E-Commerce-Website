@@ -771,6 +771,10 @@ FOOTER SECTION
     margin-left: 14px;
   }
 
+  .nav-right-lg-container {
+    margin-left: auto;
+  }
+
   .nav__tap-container-right {
     margin-left: auto;
   }
