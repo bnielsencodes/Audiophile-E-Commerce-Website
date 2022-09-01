@@ -442,11 +442,9 @@ SHOP SECTION
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-  max-width: 345px;
+  max-width: 381px;
   height: 122px;
   border-radius: 8px;
-  margin-right: auto;
-  margin-left: auto;
   background-color: var(--color-light-grey);
   color: var(--color-off-black);
   text-align: center;
@@ -688,6 +686,18 @@ FOOTER SECTION
   justify-content: space-between;
   width: 110px;
   margin: 0 auto 8px;
+}
+
+/* **************************************
+*****************************************
+768PX MEDIA QUERIES
+*****************************************
+************************************** */
+
+@media (min-width: 425px) {
+  .shop-item {
+    margin: 0 auto;
+  }
 }
 
 /* **************************************
