@@ -959,6 +959,7 @@ FOOTER SECTION
 
   .footer__logo-container {
     margin: 55px 0 25px;
+    text-align: left;
   }
 
   .footer-menu {
