@@ -1165,22 +1165,28 @@ FOOTER SECTION
   }
 
   .about__img-container {
-    order: 2;
+    order: 1;
     flex: 1 1 0px;
     width: 0;
+    margin-bottom: 0;
   }
 
   .about-text-container {
     display: flex;
-    order: 1;
+    flex-direction: column;
     flex: 1 1 0px;
     width: 0;
+    margin: auto 0;
     text-align: left;
   }
 
   .about-text-container__inner {
     height: 330px;
     margin: auto 0;
+  }
+
+  .about__text {
+    margin-bottom: 0;
   }
 
   .about__heading {
@@ -1276,6 +1282,10 @@ FOOTER SECTION
 
   .about__text {
     font-size: 15px;
+  }
+
+  .about-text-container__inner {
+    height: 250px;
   }
 
   .footer {
