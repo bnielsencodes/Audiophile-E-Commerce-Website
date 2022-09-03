@@ -48,6 +48,10 @@ main {
   z-index: -200;
 }
 
+input:focus {
+  outline: 1px solid var(--color-orange);
+}
+
 a {
   text-decoration: none;
 }
@@ -143,6 +147,7 @@ h6 {
   font-weight: 600;
   letter-spacing: 1.25px;
   line-height: 25px;
+  cursor: pointer;
 }
 
 .btn--border {
@@ -256,6 +261,14 @@ NAVIGATION
 
 .nav__logo-container {
   width: 120px;
+}
+
+.nav__burger:hover,
+a .nav__logo:hover,
+.nav__cart:hover,
+a .footer__logo:hover {
+  filter: brightness(0%) saturate(100%) invert(82%) sepia(47%) saturate(4886%)
+    hue-rotate(327deg) brightness(90%) contrast(86%);
 }
 
 .nav__cart-container {
@@ -1059,6 +1072,10 @@ FOOTER SECTION
     font-size: 10.5px;
     text-decoration: none;
     letter-spacing: 2.25px;
+  }
+
+  .menu__link:hover {
+    color: var(--color-orange);
   }
 
   .nav__logo-container {
