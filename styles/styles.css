@@ -154,11 +154,25 @@ h6 {
   background-color: var(--color-off-black);
 }
 
+.btn--black:hover {
+  background-color: #4c4c4c;
+}
+
 .btn--orange {
   background-color: var(--color-orange);
 }
 
+.btn--orange:hover {
+  background-color: var(--color-light-orange);
+}
+
 .btn-text--white {
+  color: var(--color-off-white);
+}
+
+.btn--zx7:hover,
+.btn--yx1:hover {
+  background-color: var(--color-off-black);
   color: var(--color-off-white);
 }
 
