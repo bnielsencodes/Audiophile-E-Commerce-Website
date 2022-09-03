@@ -1304,7 +1304,19 @@ FOOTER SECTION
     font-size: 15px;
   }
 
+  .about {
+    gap: 120px;
+  }
+
+  .about__heading {
+    max-width: 430px;
+    padding-right: 0;
+    margin: 0;
+    font-size: 34px;
+  }
+
   .about__text {
+    padding-right: 0;
     font-size: 15px;
   }
 
