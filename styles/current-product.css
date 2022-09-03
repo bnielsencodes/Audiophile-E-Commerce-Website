@@ -314,3 +314,34 @@
     font-size: 14px;
   }
 }
+  .features-lg-container {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 100px;
+  }
+
+  .current-product-features {
+    flex: 1 1 66%;
+  }
+
+  .in-the-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 33%;
+    margin: 0;
+  }
+
+  .in-the-box h5 {
+    flex: none;
+    width: 100%;
+    margin-bottom: 26px;
+  }
+
+  .in-the-box-list__item {
+    margin-bottom: 5px;
+  }
+
+  .features-lg-container {
+    gap: 120px;
+  }
+
