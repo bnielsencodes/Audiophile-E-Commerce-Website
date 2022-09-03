@@ -472,6 +472,10 @@ SHOP SECTION
   margin-bottom: 65px;
 }
 
+.shop-item:hover p {
+  color: var(--color-orange);
+}
+
 .shop-item__img-container {
   position: absolute;
   bottom: 45px;
@@ -538,7 +542,6 @@ FEATURED SECTION
   position: absolute;
   bottom: 300px;
   width: 145px;
-  /* transform: translate(25%); */
 }
 
 .featured-zx9__img {
@@ -1286,6 +1289,10 @@ FOOTER SECTION
 
   main {
     padding: 0 160px;
+  }
+
+  .shop-section {
+    margin-bottom: 125px;
   }
 
   .shop-item {
