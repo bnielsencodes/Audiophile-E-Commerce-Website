@@ -684,6 +684,10 @@ FOOTER SECTION
   letter-spacing: 2px;
 }
 
+.footer-menu__link:hover {
+  color: var(--color-orange);
+}
+
 .footer-text,
 .footer-copy {
   color: #878787;
@@ -704,6 +708,14 @@ FOOTER SECTION
   justify-content: space-between;
   width: 110px;
   margin: 0 auto 8px;
+}
+
+.footer-socials__link svg {
+  fill: var(--color-white);
+}
+
+.footer-socials__link:hover svg {
+  fill: var(--color-orange);
 }
 
 /* **************************************
