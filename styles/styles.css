@@ -364,8 +364,7 @@ CART OVERLAY
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 8px;
-  width: 70px;
+  width: 75px;
   margin-bottom: 9px;
   background-color: var(--color-light-grey);
   font-size: 12px;
@@ -381,7 +380,25 @@ CART OVERLAY
 
 .choose-quantity p:not(:nth-child(2)) {
   color: #b5b5b5;
-  font-size: 10px;
+}
+
+.add-btn,
+.remove-btn {
+  width: 40px;
+  text-align: center;
+}
+
+p.add-btn:hover,
+p.remove-btn:hover {
+  color: var(--color-orange);
+  cursor: pointer;
+  transform: scale(1.15);
+}
+
+p.add-btn--cart,
+p.remove-btn--cart {
+  width: 30px;
+  font-size: 14px;
 }
 
 /* **************************************
