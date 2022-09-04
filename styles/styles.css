@@ -1149,6 +1149,11 @@ FOOTER SECTION
     margin-top: 130px;
   }
 
+  .shop-item:hover {
+    transform: translateY(-3px);
+    transition: ease;
+  }
+
   .featured-zx9 {
     flex-direction: row;
     justify-content: space-between;
