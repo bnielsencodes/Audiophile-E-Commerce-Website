@@ -94,3 +94,31 @@ const formatToPhone = (event) => {
 const inputElement = document.getElementById("checkout-phone");
 inputElement.addEventListener("keydown", enforceFormat);
 inputElement.addEventListener("keyup", formatToPhone);
+
+/* ------------------------------------
+---------------------------------------
+ADD BORDER TO .RADIO-GROUP ELEMENT WHEN RADIO INPUT IS CHECKED  
+---------------------------------------
+------------------------------------ */
+const paymentTypeOne = document.querySelector(".payment-type-one");
+const paymentTypeTwo = document.querySelector(".payment-type-two");
+const radioOne = document.querySelector(".radio-one");
+const radioTwo = document.querySelector(".radio-two");
+
+paymentTypeOne.addEventListener("click", () => {
+  if (paymentTypeOne.checked) {
+    radioOne.classList.add("radio-checked");
+    radioTwo.classList.remove("radio-checked");
+  } else {
+    radioOne.classList.remove("radio-checked");
+  }
+});
+
+paymentTypeTwo.addEventListener("click", () => {
+  if (paymentTypeTwo.checked) {
+    radioTwo.classList.add("radio-checked");
+    radioOne.classList.remove("radio-checked");
+  } else {
+    radioTwo.classList.remove("radio-checked");
+  }
+});
