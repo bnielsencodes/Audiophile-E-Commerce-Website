@@ -50,9 +50,18 @@ main {
 
 input {
   caret-color: var(--color-orange);
+  cursor: pointer;
 }
 
 input:focus {
+  outline: 1px solid var(--color-orange);
+}
+
+select {
+  cursor: pointer;
+}
+
+select:focus {
   outline: 1px solid var(--color-orange);
 }
 
@@ -165,6 +174,8 @@ h6 {
 
 .btn--black:hover {
   background-color: #4c4c4c;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
 }
 
 .btn--orange {
@@ -173,6 +184,8 @@ h6 {
 
 .btn--orange:hover {
   background-color: var(--color-light-orange);
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
 }
 
 .btn-text--white {
@@ -183,6 +196,8 @@ h6 {
 .btn--yx1:hover {
   background-color: var(--color-off-black);
   color: var(--color-off-white);
+  -webkit-transition: background-color 0.2s linear, color 0.2s linear;
+  transition: background-color 0.2s linear, color 0.2s linear;
 }
 
 .hidden,
@@ -345,6 +360,13 @@ CART OVERLAY
   text-decoration: underline;
 }
 
+.cart-top p:hover {
+  color: var(--color-orange);
+  cursor: pointer;
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
 .cart-product-price {
   height: 42px;
   margin-bottom: 10px;
@@ -393,6 +415,8 @@ p.remove-btn:hover {
   color: var(--color-orange);
   cursor: pointer;
   transform: scale(1.15);
+  -webkit-transition: transform 0.2s linear, color 0.2s linear;
+  transition: transform 0.2s linear, color 0.2s linear;
 }
 
 p.add-btn--cart,
@@ -477,6 +501,13 @@ header {
   z-index: 200;
 }
 
+.header--checkout a:hover,
+.header--current-product a:hover {
+  color: var(--color-orange);
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
 /* **************************************
 *****************************************
 SHOP SECTION
@@ -508,6 +539,8 @@ SHOP SECTION
 
 .shop-item:hover p {
   color: var(--color-orange);
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
 }
 
 .shop-item__img-container {
@@ -737,6 +770,8 @@ FOOTER SECTION
 
 .footer-menu__link:hover {
   color: var(--color-orange);
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
 }
 
 .footer-text,
@@ -767,6 +802,8 @@ FOOTER SECTION
 
 .footer-socials__link:hover svg {
   fill: var(--color-orange);
+  -webkit-transition: fill 0.2s linear;
+  transition: fill 0.2s linear;
 }
 
 /* **************************************
@@ -1101,6 +1138,8 @@ FOOTER SECTION
 
   .menu__link:hover {
     color: var(--color-orange);
+    -webkit-transition: color 0.2s linear;
+    transition: color 0.2s linear;
   }
 
   .nav__logo-container {
@@ -1151,7 +1190,8 @@ FOOTER SECTION
 
   .shop-item:hover {
     transform: translateY(-3px);
-    transition: ease;
+    -webkit-transition: transform 0.2s linear;
+    transition: transform 0.2s linear;
   }
 
   .featured-zx9 {
