@@ -404,19 +404,40 @@ CART OVERLAY
   color: #b5b5b5;
 }
 
-.add-btn,
-.remove-btn {
-  width: 40px;
+.add-container,
+.remove-container {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.add-container:hover,
+.remove-container:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
+}
+
+.add-container:hover p,
+.remove-container:hover p {
+  color: var(--color-orange);
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear;
+}
+
+p.add-btn,
+p.remove-btn {
+  width: 44px;
+  margin: auto 0;
   text-align: center;
 }
 
 p.add-btn:hover,
 p.remove-btn:hover {
-  color: var(--color-orange);
-  cursor: pointer;
   transform: scale(1.15);
-  -webkit-transition: transform 0.2s linear, color 0.2s linear;
-  transition: transform 0.2s linear, color 0.2s linear;
+  -webkit-transition: transform 0.2s linear;
+  transition: transform 0.2s linear;
 }
 
 p.add-btn--cart,
@@ -503,9 +524,7 @@ header {
 
 .header--checkout a:hover,
 .header--current-product a:hover {
-  color: var(--color-orange);
-  -webkit-transition: color 0.2s linear;
-  transition: color 0.2s linear;
+  text-decoration: underline;
 }
 
 /* **************************************
