@@ -34,6 +34,18 @@ cartToggle.addEventListener("click", () => {
   cartIcon.classList.toggle("cart-icon--active");
 });
 
+/* ----------------------
+-------------------------
+CLOSE CART MODAL ON OVERLAY CLICK EVENT
+------------------------
+---------------------- */
+
+cartOverlay.addEventListener("click", (e) => {
+  if (e.target === cartOverlay) {
+    cartOverlay.classList.add("hidden");
+  }
+});
+
 /* ------------------------------------
 ---------------------------------------
 FORMAT CHECKOUT FORM PHONE NUMBER ON USER INPUT
