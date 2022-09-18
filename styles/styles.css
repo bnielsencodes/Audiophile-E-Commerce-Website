@@ -1312,6 +1312,7 @@ FOOTER SECTION
   }
 
   .about__text {
+    margin: 28px 0 0;
     margin-bottom: 0;
   }
 
@@ -1381,8 +1382,13 @@ FOOTER SECTION
     letter-spacing: 1.25px;
   }
 
+  .nav-lg-container {
+    max-width: 1920px;
+    padding: 0 160px;
+  }
+
   .nav {
-    width: calc(100vw - 340px);
+    width: 100%;
   }
 
   .cart {
@@ -1400,6 +1406,7 @@ FOOTER SECTION
 
   header {
     height: 560px;
+    padding: 0 160px;
   }
 
   .header-content {

@@ -163,6 +163,11 @@
     gap: 120px;
   }
 
+  .products-bottom div {
+    width: 462px;
+    margin-left: auto;
+  }
+
   .products__text {
     max-width: 460px;
   }
