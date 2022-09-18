@@ -213,6 +213,11 @@ NAVIGATION
 *****************************************
 ************************************** */
 
+.nav-lg-container {
+  position: relative;
+  z-index: 100;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -446,7 +451,7 @@ HEADER
 
 header {
   position: relative;
-  z-index: -100;
+  z-index: 0;
   display: flex;
   justify-content: center;
   align-items: center;
