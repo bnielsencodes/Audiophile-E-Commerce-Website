@@ -282,18 +282,6 @@ NAVIGATION
   width: 120px;
 }
 
-.nav__burger:hover,
-a .nav__logo:hover,
-.nav__cart:hover,
-a .footer__logo:hover {
-  filter: brightness(0%) saturate(100%) invert(82%) sepia(47%) saturate(4886%)
-    hue-rotate(327deg) brightness(90%) contrast(86%);
-}
-
-.nav__cart:hover {
-  cursor: pointer;
-}
-
 .nav__cart-container {
   width: 20.5px;
   padding-bottom: 1px;
@@ -920,6 +908,18 @@ FOOTER SECTION
 
   .cart-item {
     margin-bottom: 30px;
+  }
+
+  .nav__burger:hover,
+  a .nav__logo:hover,
+  .nav__cart:hover,
+  a .footer__logo:hover {
+    filter: brightness(0%) saturate(100%) invert(82%) sepia(47%) saturate(4886%)
+      hue-rotate(327deg) brightness(90%) contrast(86%);
+  }
+
+  .nav__cart:hover {
+    cursor: pointer;
   }
 
   header {
