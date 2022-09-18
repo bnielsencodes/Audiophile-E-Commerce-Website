@@ -1407,10 +1407,15 @@ FOOTER SECTION
   header {
     height: 560px;
     padding: 0 160px;
+    overflow-x: hidden;
+  }
+
+  .header__img::after {
+    left: 90px;
   }
 
   .header-content {
-    width: calc(100vw - 340px);
+    min-width: 1000px;
   }
 
   .header__text {
