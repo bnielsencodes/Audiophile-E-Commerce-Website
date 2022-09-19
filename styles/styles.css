@@ -608,7 +608,7 @@ FEATURED SECTION
   border-radius: 8px;
   margin-bottom: 25px;
   background-color: var(--color-orange);
-  background-image: url("../../assets/home/desktop/pattern-circles.svg");
+  background-image: url("../assets/home/desktop/pattern-circles.svg");
   background-position: 50% -125px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -932,7 +932,7 @@ FOOTER SECTION
   }
 
   .header__img::after {
-    background: url("../../assets/home/tablet/image-header.jpg") center/contain
+    background: url("../assets/home/tablet/image-header.jpg") center/contain
       no-repeat;
   }
 
@@ -1196,7 +1196,7 @@ FOOTER SECTION
   }
 
   .header__img::after {
-    background: url("../../assets/home/desktop/image-hero.jpg") center/contain
+    background: url("../assets/home/desktop/image-hero.jpg") center/contain
       no-repeat;
   }
 
